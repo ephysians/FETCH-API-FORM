@@ -16,8 +16,9 @@
     border: 1px solid #ddd;
   }
   .user-table th {
-    background: green;
+    background: lightblue;
     text-align: center;
+    color:white;
   }
   .user-table td:first-child {
     font-weight: bold;
