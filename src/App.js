@@ -13,11 +13,11 @@ const UserTable = () => {
   const renderTableHeader = () => {
     return (
       <tr>
-        <th style={{color:'crimson'}}><marquee behavior="slide" direction="right to left" width= 60>Serial No</marquee></th>
+        <th style={{color:'crimson'}}><marquee behavior="slide" direction="right" width= 60>Serial No</marquee></th>
         <th>Full Name</th>
         <th>Email Address</th>
         <th>Phone Number</th>
-        <th style={{color:'crimson'}}><marquee behavior="slide" direction="left to right" width= 60>Street</th>
+        <th style={{color:'crimson'}}><marquee behavior="slide" direction="left" width= 60>Street</th>
       </tr>
     );
   };
